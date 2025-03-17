@@ -1,19 +1,17 @@
-/* Allgemeine Stile */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #121212; /* Dunkler Hintergrund */
+    background-color: #121212;
     color: white;
 }
 
-/* HEADER */
 header {
-    background-color: black; /* Schwarzer Hintergrund */
+    background-color: black;
     color: white;
     padding: 5px;
     text-align: center;
-    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1); /* Leichter Schatten */
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
 }
 
 nav ul {
@@ -34,19 +32,18 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ff9800; /* Orange Hover-Effekt */
+    color: #ff9800;
 }
 
-/* FOOTER */
 footer {
-    background-color: black; /* Schwarzer Hintergrund */
+    background-color: black;
     color: white;
     text-align: center;
     padding: 10px;
     bottom: 0px;
     position: fixed;
     width: 100%;
-    box-shadow: 0 -4px 10px rgba(255, 255, 255, 0.1); /* Leichter Schatten oben */
+    box-shadow: 0 -4px 10px rgba(255, 255, 255, 0.1);
     font-size: 14px;
 }
 
@@ -66,6 +63,21 @@ img {
 
 .center-block {
     text-align: center;
+}
+
+.center-flex {
+    text-align: center;
+}
+
+.center-absolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.this {
+    color: #ff00bb;
 }
 
 @media (max-width:768px) {
