@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #121212;
+    background-color: #70265c;
     color: white;
 }
 
 header {
-    background-color: black;
+    background-color: rgb(30, 4, 33);
     color: white;
     padding: 5px;
     text-align: center;
@@ -36,7 +36,7 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: black;
+    background-color: rgb(54, 20, 45);
     color: white;
     text-align: center;
     padding: 10px;
